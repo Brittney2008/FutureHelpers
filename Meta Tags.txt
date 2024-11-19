@@ -1,0 +1,24 @@
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-G-DXFV1K9VR9');
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Future Helpers is a platform dedicated to connecting volunteers with impactful opportunities to help build a better future through community service and innovation.">
+  <meta name="keywords" content="Future Helpers, volunteering, community service, helping others, volunteer opportunities, social impact, change makers">
+  <meta name="author" content="The Future Helpers Team">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>The Future Helpers - Building a Better Tomorrow</title>
+</head>
+<body>
+  <!-- Website content goes here -->
+</body>
+</html>
