@@ -18,12 +18,27 @@
             text-align: center;
             padding: 1.5rem;
         }
-        nav {
-            text-align: center;
-            padding: 1rem 0;
-            background: #007BFF;
+        nav h2 {
+            margin: 15px 0 0;
+            font-size: 1.2rem;
+        }
+        nav p {
+            margin: 0;
+        }
+        nav a {
+            text-decoration: none;
             color: white;
-            margin-top: 2rem;
+            font-weight: bold;
+            margin: 0 10px;
+            padding: 5px 10px;
+            border: 2px solid transparent;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            background-color: white;
+            color: #28a745;
+            border-color: white;
         }
         main {
             margin: 20px auto;
@@ -90,12 +105,16 @@
         <h1>Share Your Feedback</h1>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-               <nav>
-            <a href="index.html">Home</a> |
-            <a href="about.html">Our Mission</a> |
-            <a href="safety.html">Safety</a> |
-            <a href="start.html">Get Started</a> |
-            <a href="contact.html">Contact</a>
+        <nav>
+            <h2>
+                <p>
+                    <a href="index.html">Home</a> |
+                    <a href="about.html">Our Mission</a> |
+                    <a href="safety.html">Safety</a> |
+                    <a href="start.html">Get Started</a> |
+                    <a href="contact.html">Contact</a>
+                </p>
+            </h2>
         </nav>
     </header>
     <main>
