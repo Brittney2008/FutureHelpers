@@ -18,7 +18,7 @@
             text-align: center;
             padding: 1.5rem 0;
         }
-          header img {
+        header img {
             max-width: 100px;
             height: auto;
             display: block;
@@ -94,6 +94,16 @@
         a:hover {
             text-decoration: underline;
         }
+
+        /* New Styles for Centering Image and Adding Border */
+        .centered-image {
+            display: block;
+            margin: 20px auto;
+            border: 5px solid #4CAF50; /* Green border */
+            border-radius: 10px; /* Rounded corners */
+            max-width: 100%; /* Makes it responsive */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+        }
     </style>
 </head>
 <body>
@@ -144,7 +154,8 @@
             <li><strong>Educator Resources:</strong> Ideas for integrating community service into the curriculum or school activities.</li>
         </ul>
         <p>We provide everything you need to connect young people with meaningful opportunities, whether you’re guiding a group of students or your own child.</p>
-        <img src="Screenshot 2024-09-15 224234.png" alt="Future Helpers success">  
+        <!-- Apply centered image style -->
+        <img src="Screenshot 2024-09-15 224234.png" alt="Future Helpers success" class="centered-image">  
     </section>
 </main>
 
